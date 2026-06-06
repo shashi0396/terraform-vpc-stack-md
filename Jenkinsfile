@@ -6,9 +6,9 @@ pipeline {
         TF_IN_AUTOMATION   = 'true'
     }
     
-    tools {
-        terraform 'terraform-default'
-    }
+    // tools {
+    //     terraform 'terraform-default'
+    // }
     
     stages {
         stage('Checkout') {
